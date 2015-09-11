@@ -6,6 +6,3 @@ button{
 	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 }
-strong, b{
-	font-weight: 700;
-}
