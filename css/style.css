@@ -110,3 +110,71 @@ p, ul, ol {
 .ba-title-frame {
 	background-image: url(../img/frame-icon.png);
 }
+.ba-title--mech {
+	background-image: url(../img/mech-icon.png);
+}
+.ba-title--fork {
+	background-image: url(../img/front-icon.png);
+}
+
+/* Bike section */
+.ba-bike {
+	position: relative;
+}
+.ba-bike__thumb {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	/*background: #FFF url(../img/left-box-1.jpg);*/
+	background: 0 no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+.ba-bike__thumb--right {
+	left: auto;
+	right: 0;
+}
+.ba-bike__thumb-logo {
+	position: absolute;
+	content: "";
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: 50% no-repeat;
+}
+.ba-bike__body {
+	padding: 40px 40px 80px;
+	position: relative;
+}
+.ba-bike__body:last-child {
+	margin-bottom: 0;
+}
+.ba-bike__body:before {
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 40px;
+	right: 0;
+	margin: auto;
+	width: 50px;
+	height: 2px;
+	background: #D7D7D7;
+}
+.ba-bike__body:after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 50%;
+	margin-left: -10px;
+	width: 0;
+	height: 0;
+	border: 10px solid;
+	border-color: #FFF transparent transparent;
+}
+.ba-bike__thumb--small {
+	display: block;
+	width: 100%;
+}
